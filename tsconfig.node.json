@@ -1,0 +1,10 @@
+{
+  "extends": "@vue/tsconfig/tsconfig.node.json",
+  "compilerOptions": {
+    "composite": true,
+    "target": "ESNext"
+  },
+  "include": [
+    "scripts"
+  ],
+}
