@@ -1,1 +1,2 @@
-export const prefixName = 'my-vue';
+export const prefixName = 'rugu';
+
