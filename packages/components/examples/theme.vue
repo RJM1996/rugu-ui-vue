@@ -27,10 +27,18 @@
     </div>
     <div class="btn-list">
       <Button :variant="'outlined'" disabled>Default</Button>
-      <Button :type="'primary'" :variant="'outlined'" disabled>Primary, Outlined</Button>
-      <Button :type="'success'" :variant="'outlined'" disabled>Success, Outlined</Button>
-      <Button :type="'warning'" :variant="'outlined'" disabled>Warning, Outlined</Button>
-      <Button :type="'danger'" :variant="'outlined'" disabled>Danger, Outlined</Button>
+      <Button :type="'primary'" :variant="'outlined'" disabled
+        >Primary, Outlined</Button
+      >
+      <Button :type="'success'" :variant="'outlined'" disabled
+        >Success, Outlined</Button
+      >
+      <Button :type="'warning'" :variant="'outlined'" disabled
+        >Warning, Outlined</Button
+      >
+      <Button :type="'danger'" :variant="'outlined'" disabled
+        >Danger, Outlined</Button
+      >
     </div>
   </Box>
 </template>
@@ -52,15 +60,15 @@ const onClickTheme = () => {
 
 <style lang="less">
 .example {
-  padding: 100px;
-  height: 100vh;
+  padding: 40px;
+  max-height: 500px;
   box-sizing: border-box;
 
   .btn-list {
-    margin-bottom: 10px;
+    margin-bottom: 12px;
 
     button {
-      margin-right: 10px;
+      margin-right: 12px;
     }
   }
 }

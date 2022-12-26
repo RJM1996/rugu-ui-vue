@@ -1,0 +1,55 @@
+@import '../../theme/variable.less';
+
+.@{prefix-name}-dialog-mask {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 100;
+  background: #000000AA;
+}
+
+.@{prefix-name}-dialog-hidden {
+  display: none;
+}
+
+.@{prefix-name}-dialog {
+  position: fixed;
+  z-index: 101;
+  top: 100px;
+  left: calc(50% - 180px);
+  width: 360px;
+  height: auto;
+  background: #ffffff;
+  border-radius: 4px;
+  font-size: 16px;
+  color: #222222;
+
+  .@{prefix-name}-dialog-text {
+    text-align: center;
+    min-height: 80px;
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .@{prefix-name}-dialog-close-icon {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    color: #222222;
+    cursor: pointer;
+  }
+
+  .@{prefix-name}-dialog-footer {
+    text-align: right;
+    margin-bottom: 20px;
+    margin-right: 20px;
+
+    button {
+      margin-left: 12px;
+    }
+  }
+}
